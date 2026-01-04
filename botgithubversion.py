@@ -84,14 +84,14 @@ async def givemebread(ctx):
     await ctx.send(f"{chosen} — fresh and warm!")
 
 
-# NEW COMMAND: !pickle
+# Command: !pickle
 @bot.command()
 @commands.cooldown(1, 3, commands.BucketType.user)
 async def pickle(ctx):
     await ctx.send("🥒 Pickle")
 
 
-# NEW COMMAND: !whomadeyou
+# Command: !whomadeyou
 @bot.command()
 @commands.cooldown(1, 3, commands.BucketType.user)
 async def whomadeyou(ctx):
