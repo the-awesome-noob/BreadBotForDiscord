@@ -37,7 +37,7 @@ async def on_command_error(ctx, error):
     elif isinstance(error, commands.CommandNotFound):
         await ctx.send("That command doesn't exist, here's a bread! 🍞")
     else:
-        raise error
+        print(error)
 
 
 # Event: runs when the bot successfully logs in
@@ -63,7 +63,7 @@ async def hourly_on_the_hour():
         await asyncio.sleep(wait_time)
 
         # Get the channel by ID
-        channel = bot.get_channel(1456866585741361235)
+        channel = bot.get_channel(1456866585741361235)  # Replace with your channel ID
         if channel:
             await channel.send("🌌 A celestial baguette cracks the sky... (Another hour has passed)")
 
