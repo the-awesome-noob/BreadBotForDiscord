@@ -1,3 +1,4 @@
+# DO NOT REMOVE THIS LINE - Made by ItsLukeSter (github.com/ItsLukeSter) / Hello12231223 (my discord username)
 # Import the Discord library
 import discord
 # Import commands extension for creating bot commands
@@ -53,7 +54,7 @@ async def hourly_on_the_hour():
         wait_time = (next_hour - now).total_seconds()
         await asyncio.sleep(wait_time)
 
-        # Get the channel by ID, edit the channel ID to be the ID of the channel you want to be sending the hourly message in.
+        # Get the channel by ID
         channel = bot.get_channel(1456866585741361235)
         if channel:
             await channel.send("🌌 A celestial baguette cracks the sky... (Another hour has passed)")
