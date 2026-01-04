@@ -1,5 +1,5 @@
 # ======================================================================================================================================
-#  DO NOT REMOVE THIS LINE
+#  DO NOT REMOVE THESE LINES
 #  Made by ItsLukeSter (github.com/ItsLukeSter)
 #  Discord: Hello12231223
 #  I am not responsible for any issues caused by this bot.
