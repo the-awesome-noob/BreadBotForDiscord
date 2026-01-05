@@ -1,11 +1,11 @@
 # ======================================================================================================================================
 #  DO NOT REMOVE THESE LINES
-#  Made by ItsLukeSter (github.com/ItsLukeSter)
+#  Made by the-awesome-noob (github.com/the-awesome-noob)
 #  Discord: Hello12231223
 #  I am not responsible for any issues caused by this bot.
 #  Have fun doing anything with this bots code, however please credit me and do not claim it as your own or make malicous changes to it.
 #  I have added comments to help you understand the code.
-#  © ItsLukeSter 2026
+#  © the-awesome-noob 2026
 # ======================================================================================================================================
 # Import the Discord library
 import discord
@@ -284,19 +284,6 @@ async def emoji(ctx):
         "🚽", "🚾"
     ]
     await ctx.send(random.choice(emojis))
-  
-# Command: Sends a random string of characters
-@bot.command()
-@commands.cooldown(1, 3, commands.BucketType.user)
-async def soifudghsofidughsdfuoighsfduiogshdfuiogshdfouighosuifghsio(ctx):
-    chaos = [
-        "ubiohgsfdnnhouisgbfdsuhgbifnosbgunfihodsbgfhudniosgbfduhnio",
-        "sdjfhguisdhfguihsdfguisdhfguihsdfguisdhfguihsdfg",
-        "hdfuighsduifghsduifghsduifghsduifghsduifgh",
-        "bdfuighbdfuighbdfuighbdfuighbdfuigh",
-        "sduifghsduifghsduifghsduifghsduifgh"
-    ]
-    await ctx.send(random.choice(chaos))
 
 # Load the bot token from environment variables
 token = os.getenv("BOT_TOKEN")
