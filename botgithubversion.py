@@ -297,8 +297,7 @@ async def uptime(ctx):
     minutes, seconds = divmod(remainder, 60)
 
     await ctx.send(
-        f"🕒 Uptime is {days} day(s), {hours} hour(s), {minutes} minute(s), {seconds} second(s) "
-        f"(Time is in day/hour/minute/second)"
+        f"🕒 Uptime is {days} day(s), {hours} hour(s), {minutes} minute(s), {seconds} second(s)"
     )
 
 # Load the bot token from environment variables
