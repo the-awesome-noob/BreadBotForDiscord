@@ -5,15 +5,15 @@ Follow these steps to get your own instance of bread.bot running:
 
 Go to the **Discord Developer Portal** by clicking [here.](https://discord.com/developers/applications)
 
-Click "New Application" and name it bread.bot.
+Click *New Application* and name it bread.bot.
 
-Go to the "Bot" tab on the left.
+Go to the *Bot* tab on the left.
 
-Click "Add Bot" and confirm.
+Click *Add Bot* and confirm.
 
-Under the "Token" section, click "Reset Token" and copy the token immediately. **Keep this token secret!**
+Under the *Token* section, click *Reset Token* and copy the token immediately. **Keep this token secret!**
 
-Enable "MESSAGE CONTENT INTENT" further down on the same page.
+Enable *MESSAGE CONTENT INTENT* further down on the same page.
 
 2. Download the Files
 
